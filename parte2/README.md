@@ -4,6 +4,7 @@
 Como parte de un proyecto de investigación, en la UNGS se está diseñando una
 nueva red social y nos han pedido un diseño de clases para representar las relaciones
 entre distintas personas.
+
 En esta primera versión solo guardaremos el nombre de las personas de la red y sus
 relaciones, aunque quizá en el futuro se haga necesario almacenar más información.
 Lo que sí quedó establecido es que se debe poder representar dos tipos distintos de
@@ -13,6 +14,7 @@ aparece en la lista de relaciones de B, B también debe aparecer en la lista de 
 • en una red asimétrica no se exige que las relaciones sean recíprocas: A puede
 tener a B en su lista de relaciones sin que B necesariamente tenga a A en la
 suya.
+
 2.2 Objetivos
 Las siguientes objetivos deben primar en la versión inicialmente entregada a los
 investigadores:
