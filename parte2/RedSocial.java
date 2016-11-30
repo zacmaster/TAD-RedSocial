@@ -87,7 +87,6 @@ public abstract class RedSocial<K,V> implements Iterable<K>{
 		HashSet<V> relacionados = new HashSet<V>();
 		if(!relaciones.containsKey(a)){
 			if(relacionados.add(b))cantidadRelaciones++;
-//			relacionados.add(b);
 			relaciones.put(a,relacionados);
 			personas.add(a);
 			personas.add((K)b);
